@@ -9,6 +9,7 @@
     "react/prefer-stateless-function": "off",
     "no-console": "warn",
     "no-undef": "off",
+    "import/no-extraneous-dependencies": "off",
     "implicit-arrow-linebreak": "off",
     "arrow-parens": "off",
     "max-len": [

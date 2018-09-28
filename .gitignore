@@ -19,3 +19,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.idea/
+.vscode/
+
+# style.css is just for styling testing
+/src/style.css

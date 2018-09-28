@@ -1,13 +1,19 @@
 import React from 'react';
-import FeedItem from '../atoms/FeedItem';
+import { Anchor, ListElement } from '../atoms';
 
 const FeedToggle = () => (
-  <div className="feed-toggle">
-    <ul className="nav nav-pills outline-active">
-      <FeedItem name="Your Feed" />
-      <FeedItem name="Global Feed" />
-    </ul>
-  </div>
+  <ul className="nav nav-pills outline-active">
+    <ListElement className="nav-item">
+      <Anchor className="nav-link disabled" linkTo="">
+        Your Feed
+      </Anchor>
+    </ListElement>
+    <ListElement className="nav-item">
+      <Anchor className="nav-link active" linkTo="">
+        Global Feed
+      </Anchor>
+    </ListElement>
+  </ul>
 );
 
 export default FeedToggle;

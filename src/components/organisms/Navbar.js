@@ -5,7 +5,7 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-light">
         <div className="container">
-          <a className="navbar-brand" href="index.html">
+          <a className="navbar-brand" href="/">
             conduit
           </a>
           <ul className="nav navbar-nav pull-xs-right">
@@ -22,13 +22,13 @@ class Navbar extends Component {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/settings">
                 <i className="ion-gear-a" />
                 &nbsp;Settings
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/register">
                 Sign up
               </a>
             </li>
